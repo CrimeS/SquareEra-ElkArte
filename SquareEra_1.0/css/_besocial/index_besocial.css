@@ -90,7 +90,7 @@ legend {
 
 input, button, select, textarea, .editor {
 	border: 1px solid #ccc;
-	border-radius: 2px;
+	border-radius: 0px;
 	background: #fff;
 	color: #666;
 }
@@ -451,7 +451,7 @@ div.bbc_footnotes .meaction {
 #footer_section .rssfeeds {
 	color: orange;
 	background-color: white;
-	border-radius: 0.3em;
+	border-radius: 0em;
 	text-shadow: 1px 1px 0 #000;
 }
 
@@ -561,7 +561,7 @@ div.bbc_footnotes .meaction {
 /* These have standard body text size. Can be chained with smalltext class. */
 .linkbutton:link, .linkbutton_right:link, .linkbutton_left:link,
 .linkbutton:visited, .linkbutton_right:visited, .linkbutton_left:visited {
-	border-radius: 2px;
+	border-radius: 0px;
 	border: 1px solid #afafaf;
 	border-top: 1px solid #cfcfcf;
 	border-left: 1px solid #bfbfbf;
@@ -762,7 +762,7 @@ a.active {
 .pagelinks .navPages:hover, .pagelinks .current_page {
 	background: #7bb128;
 	color: white;
-	border-radius: 8px;
+	border-radius: 0px;
 	text-decoration: none;
 }
 
@@ -945,7 +945,7 @@ a.active {
 }
 .post_wrapper {
 	border: 1px solid #eaeaea;
-	border-radius: 10px;
+	border-radius: 0px;
 }
 /* We need an offset for some of our anchors due to the fixed top navigation */
 .post_anchor, .pm_anchor, #new {
@@ -1218,7 +1218,7 @@ a.help .icon {
 	border-top: 8px solid #f6f6f6;
 }
 .ui-tabs .ui-tabs-nav li {
-	border-radius: 5px 5px 0 0;
+	border-radius: 0px 0px 0 0;
 	border: 2px solid #f0f0f0;
 	border-bottom: none;
 	color: #fff;
@@ -1232,7 +1232,7 @@ a.help .icon {
 	background: #f0f0f0;
 	border-bottom-color: #ccc;
 	outline: none;
-	border-radius: 5px 5px 0 0;
+	border-radius: 0px 0px 0 0;
 }
 
 .ui-tabs .ui-tabs-nav .ui-state-default a {
@@ -1242,7 +1242,7 @@ a.help .icon {
 .ui-tabs .ui-tabs-nav .ui-state-active a, .ui-tabs .ui-tabs-nav .ui-state-active {
 	background: #f6f6f6;
 	color: #333;
-	border-radius: 5px 5px 0 0;
+	border-radius: 0px 0px 0 0;
 }
 .ui-tabs .ui-state-hover {
 	background: #f0f0f0;
