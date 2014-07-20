@@ -257,7 +257,7 @@ strong {
 /* @todo - Daft name. Other stuffz. :P */
 .roundframe {
 	border: 1px solid #c5c5c5;
-	border-radius: 7px;
+	border-radius: 0px;
 	background: #f5f5f5;
 }
 
