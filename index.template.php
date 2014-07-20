@@ -62,6 +62,9 @@ function template_init()
 
 		// Set the following variable to true if this theme requires the optional theme strings file to be loaded.
 		'require_theme_strings' => false,
+		
+		// This is used for the color variants.
+		'theme_variants' => array('besocial'),
 
 		// If the following variable is set to true, the avatar of the last poster will be displayed on the boardindex and message index.
 		'avatars_on_indexes' => true,
