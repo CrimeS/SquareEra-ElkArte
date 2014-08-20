@@ -213,8 +213,14 @@ function template_body_above()
 	<div class="logo">
 		<div class="logo_inner" ', !empty($settings['forum_width']) ? ' style="width: ' . $settings['forum_width'] . '"' : '' ,'>
 			<div class="logo_content">
-				<div class="logo_image">
-				<a href="', $scripturl ,'"><img src="' . $settings['images_url']  . '/_besocial/logo_elk.png" alt="' . $context['forum_name'] . '" /></a>
+				<div class="logo_image">';
+				
+				if (empty($context['header_logo_url_html_safe']))
+				echo '<a href="', $scripturl ,'"><img src="' . $settings['images_url']  . '/smflogo.png" alt="' . $context['forum_name'] . '" /></a>';
+			else
+				echo '
+				<a href="', $scripturl, '"><img src="' . $context['header_logo_url_html_safe'] . '" alt="' . $context['forum_name'] . '" />', '</a>
+				
 				</div>
 				
 				<div class="floatright">';
