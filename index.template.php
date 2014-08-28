@@ -221,9 +221,7 @@ function template_body_above()
 				echo '
 				<a href="', $scripturl, '"><img src="' . $context['header_logo_url_html_safe'] . '" alt="' . $context['forum_name'] . '" />', '</a>
 				
-				</div>
-				
-				<div class="floatright">';
+				</div>';
 				
 				// Show log in form to guests.
 	if (!empty($context['show_login_bar']))
@@ -256,6 +254,9 @@ function template_body_above()
 			</div>';
 	}
 
+	echo '
+	<div class="wrapper">';
+	
 	if ($context['allow_search'])
 	{
 		echo '
@@ -311,9 +312,8 @@ function template_body_above()
 	}
 	
 		echo '
-				
-				</div>
-			</div>
+	</div>
+				</div>	
 		</div>
 	</div>';
 	
