@@ -8,7 +8,7 @@
 		<!-- Author: your email address or contact information. The name attribute is optional. -->
 		<author name="Your Name">ch.marcinx@gmail.com</author>
 		<!-- Website... where to get updates and more information. -->
-		<website>http://studiocrimes.com/</website>
+		<website>http://elkartestudio.com/</website>
 		<!-- Template layers to use, defaults to "html,body". -->
 		<layers>html,body</layers>
 		<!-- Templates to load on startup. Default is "index". -->
