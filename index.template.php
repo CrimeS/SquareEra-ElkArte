@@ -99,26 +99,6 @@ function template_init()
 }
 
 /**
-* Simplify the use of callbacks in the templates.
- 		* @param string $id - A prefix for the template functions the final name
- 		*                     should look like:
- 		*                     template_{$id}_{$array[n]}
- 		* @param string[] $array - The array of function suffixes
- 		*/ 
- 		function call_template_callbacks($id, $array)
- 		{
- 		   if (empty($array))
- 		       return;
- 		 
- 		   foreach ($array as $callback)
- 		   {
- 		       $func = 'template_' . $id . '_' . $callback;
- 		       if (function_exists($func))
- 		           $func();
- 		   }
- 		}
- 		 
- 		/**
  * The main sub template above the content.
  */
 function template_html_above()
