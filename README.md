@@ -1,6 +1,6 @@
 SquareEra-ElkArte
 =================
 
-This is a free theme for ElkArte Release Candidate 2.
+This is a free theme for ElkArte 1.0!
 
 Please do not sell this theme, as it is and will always stay free.
