@@ -341,6 +341,8 @@ function template_body_above()
 	echo '
 	<div id="top_section">
 		<div class="wrapper">';
+		
+	call_template_callbacks('th', $context['theme_header_callbacks']);
 
 	// If the user is logged in, display the time, or a maintenance warning for admins.
 	// @todo - TBH I always intended the time/date to be more or less a place holder for more important things.
@@ -361,6 +363,7 @@ function template_body_above()
 	</div>
 	<div id="wrapper" class="wrapper">
 		<div id="upper_section"', empty($context['minmax_preferences']['upshrink']) ? '' : ' style="display: none;" aria-hidden="true"', '>';
+		
 
 	// Display either news fader and random news lines (not both). These now run most of the same mark up and CSS. Less complication = happier n00bz. :)
 	if (!empty($settings['enable_news']) && !empty($context['random_news_line']))
@@ -372,6 +375,8 @@ function template_body_above()
 			</div>';
 	}
 
+	call_template_callbacks('uc', $context['upper_content_callbacks']);
+	
 	echo '
 		</div>';
 
