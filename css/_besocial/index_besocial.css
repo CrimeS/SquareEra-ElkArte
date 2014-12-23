@@ -487,6 +487,9 @@ div.bbc_footnotes .meaction {
 	color: #2f3030;
 	text-decoration: none;
 }
+.listlevel1.subsections {
+	top: -1px;
+}
 .poster li.poster_online:hover .linklevel1 {
 	border: 1px solid #ccc;
 	border-top: 1px solid #afafaf;
@@ -762,8 +765,10 @@ a.active {
 .pagelinks .navPages:hover, .pagelinks .current_page {
 	background: #7bb128;
 	color: white;
-	border-radius: 0px;
 	text-decoration: none;
+}
+.pagelinks .navPages, .pagelinks .current_page {
+	border-radius: 8px;
 }
 
 /* our buddies &laquo; &raquo; */
