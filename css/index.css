@@ -1807,13 +1807,6 @@ img.new_posts {
 #unread_header {
 	margin-top: 0.5em;
 }
-
-+/* The header abover the posts */
-#forumposts .category_header {
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
 /* The board description and who-is-viewing stuff. */
 #description_board {
 	margin: 10px 0 0 0;
@@ -1834,7 +1827,6 @@ img.new_posts {
 	display: table;
 	width: 100%;
 	border-collapse: collapse;
-	table-layout: fixed;
 }
 .topic_listing>li {
 	margin: 1px 0 0 0;
@@ -1867,6 +1859,7 @@ img.new_posts {
 	vertical-align: top;
 	width: 70%;
 	padding: 7px 8px 6px 12px;
+	border: 1px solid #e5e5e5;
 }
 .topic_icons {
 	float: left;
@@ -1887,8 +1880,6 @@ img.new_posts {
 	line-height: 1.429em;
 	display: inline-block;
 	padding-right: 30px;
-	word-break: break-all;
-    word-wrap: break-word;
 }
 .topic_name h4 a {
 	font-weight: bold;
@@ -1899,11 +1890,12 @@ img.new_posts {
 .topic_latest {
 	display: table-cell;
 	vertical-align: top;
-	padding: 7px 4px 6px 4px;
+	padding: 10px 0px 0px 0px;
 	width: auto;
 	min-width: 36em;
 	white-space: nowrap;
 	font-size: 0.929em;
+	border: 1px solid #e5e5e5;
 }
 .topic_latest.relative {
 	min-width: 30em;
@@ -4806,9 +4798,6 @@ dl.no_members {
 	top: 0;
 	background: rgba(34, 34, 34, .1);
 }
-
-
-
 .navbar_item_link:link, .navbar_item_link:active, .navbar_item_link:visited
 {
 	color: #fff;
